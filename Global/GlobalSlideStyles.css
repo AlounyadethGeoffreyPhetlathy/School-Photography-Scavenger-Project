@@ -1,0 +1,15 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 20px;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+button#previous {
+    align-items: center;
+}
