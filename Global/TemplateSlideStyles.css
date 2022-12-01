@@ -1,0 +1,42 @@
+/*
+Use this file as the base for
+your "slide".
+*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+p {
+    display: block;
+}
+button#previous, p {
+    margin-left: 0px;
+}
+button#next, p {
+    margin-right: 0px;
+}
+button {
+    width: 3rem;
+    height: 6rem;
+    margin: 45%;
+    font-size: 1.5rem;
+    border: 4px grey solid;
+    border-radius: 12px;
+    opacity: 0;
+    transition: opacity 500ms ease-out 0s;
+}
+button:hover {
+    opacity: 1;
+}
